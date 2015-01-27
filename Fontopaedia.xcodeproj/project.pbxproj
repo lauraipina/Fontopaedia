@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		008871EE1A7828B700DF3A10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 008871ED1A7828B700DF3A10 /* main.m */; };
+		008871F11A7828B700DF3A10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 008871F01A7828B700DF3A10 /* AppDelegate.m */; };
+		008871F31A7828B700DF3A10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008871F21A7828B700DF3A10 /* Images.xcassets */; };
+		008871F61A7828B700DF3A10 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 008871F41A7828B700DF3A10 /* LaunchScreen.xib */; };
+		008872021A7828B700DF3A10 /* FontopaediaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 008872011A7828B700DF3A10 /* FontopaediaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		008871FC1A7828B700DF3A10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 008871E01A7828B700DF3A10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 008871E71A7828B700DF3A10;
+			remoteInfo = Fontopaedia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008871E81A7828B700DF3A10 /* Fontopaedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fontopaedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		008871EC1A7828B700DF3A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		008871ED1A7828B700DF3A10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		008871EF1A7828B700DF3A10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		008871F01A7828B700DF3A10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		008871F21A7828B700DF3A10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		008871F51A7828B700DF3A10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		008871FB1A7828B700DF3A10 /* FontopaediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontopaediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		008872001A7828B700DF3A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		008872011A7828B700DF3A10 /* FontopaediaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontopaediaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		008871E51A7828B700DF3A10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008871F81A7828B700DF3A10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		008871DF1A7828B700DF3A10 = {
+			isa = PBXGroup;
+			children = (
+				008871EA1A7828B700DF3A10 /* Fontopaedia */,
+				008871FE1A7828B700DF3A10 /* FontopaediaTests */,
+				008871E91A7828B700DF3A10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		008871E91A7828B700DF3A10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				008871E81A7828B700DF3A10 /* Fontopaedia.app */,
+				008871FB1A7828B700DF3A10 /* FontopaediaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		008871EA1A7828B700DF3A10 /* Fontopaedia */ = {
+			isa = PBXGroup;
+			children = (
+				008871EF1A7828B700DF3A10 /* AppDelegate.h */,
+				008871F01A7828B700DF3A10 /* AppDelegate.m */,
+				008871F21A7828B700DF3A10 /* Images.xcassets */,
+				008871F41A7828B700DF3A10 /* LaunchScreen.xib */,
+				008871EB1A7828B700DF3A10 /* Supporting Files */,
+			);
+			path = Fontopaedia;
+			sourceTree = "<group>";
+		};
+		008871EB1A7828B700DF3A10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				008871EC1A7828B700DF3A10 /* Info.plist */,
+				008871ED1A7828B700DF3A10 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		008871FE1A7828B700DF3A10 /* FontopaediaTests */ = {
+			isa = PBXGroup;
+			children = (
+				008872011A7828B700DF3A10 /* FontopaediaTests.m */,
+				008871FF1A7828B700DF3A10 /* Supporting Files */,
+			);
+			path = FontopaediaTests;
+			sourceTree = "<group>";
+		};
+		008871FF1A7828B700DF3A10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				008872001A7828B700DF3A10 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		008871E71A7828B700DF3A10 /* Fontopaedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008872051A7828B700DF3A10 /* Build configuration list for PBXNativeTarget "Fontopaedia" */;
+			buildPhases = (
+				008871E41A7828B700DF3A10 /* Sources */,
+				008871E51A7828B700DF3A10 /* Frameworks */,
+				008871E61A7828B700DF3A10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fontopaedia;
+			productName = Fontopaedia;
+			productReference = 008871E81A7828B700DF3A10 /* Fontopaedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		008871FA1A7828B700DF3A10 /* FontopaediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008872081A7828B700DF3A10 /* Build configuration list for PBXNativeTarget "FontopaediaTests" */;
+			buildPhases = (
+				008871F71A7828B700DF3A10 /* Sources */,
+				008871F81A7828B700DF3A10 /* Frameworks */,
+				008871F91A7828B700DF3A10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				008871FD1A7828B700DF3A10 /* PBXTargetDependency */,
+			);
+			name = FontopaediaTests;
+			productName = FontopaediaTests;
+			productReference = 008871FB1A7828B700DF3A10 /* FontopaediaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		008871E01A7828B700DF3A10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = lip;
+				TargetAttributes = {
+					008871E71A7828B700DF3A10 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					008871FA1A7828B700DF3A10 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 008871E71A7828B700DF3A10;
+					};
+				};
+			};
+			buildConfigurationList = 008871E31A7828B700DF3A10 /* Build configuration list for PBXProject "Fontopaedia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 008871DF1A7828B700DF3A10;
+			productRefGroup = 008871E91A7828B700DF3A10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				008871E71A7828B700DF3A10 /* Fontopaedia */,
+				008871FA1A7828B700DF3A10 /* FontopaediaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		008871E61A7828B700DF3A10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008871F61A7828B700DF3A10 /* LaunchScreen.xib in Resources */,
+				008871F31A7828B700DF3A10 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008871F91A7828B700DF3A10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		008871E41A7828B700DF3A10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008871F11A7828B700DF3A10 /* AppDelegate.m in Sources */,
+				008871EE1A7828B700DF3A10 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008871F71A7828B700DF3A10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008872021A7828B700DF3A10 /* FontopaediaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		008871FD1A7828B700DF3A10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 008871E71A7828B700DF3A10 /* Fontopaedia */;
+			targetProxy = 008871FC1A7828B700DF3A10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		008871F41A7828B700DF3A10 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				008871F51A7828B700DF3A10 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		008872031A7828B700DF3A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		008872041A7828B700DF3A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		008872061A7828B700DF3A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fontopaedia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		008872071A7828B700DF3A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fontopaedia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		008872091A7828B700DF3A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FontopaediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fontopaedia.app/Fontopaedia";
+			};
+			name = Debug;
+		};
+		0088720A1A7828B700DF3A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FontopaediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fontopaedia.app/Fontopaedia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		008871E31A7828B700DF3A10 /* Build configuration list for PBXProject "Fontopaedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008872031A7828B700DF3A10 /* Debug */,
+				008872041A7828B700DF3A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		008872051A7828B700DF3A10 /* Build configuration list for PBXNativeTarget "Fontopaedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008872061A7828B700DF3A10 /* Debug */,
+				008872071A7828B700DF3A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		008872081A7828B700DF3A10 /* Build configuration list for PBXNativeTarget "FontopaediaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008872091A7828B700DF3A10 /* Debug */,
+				0088720A1A7828B700DF3A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 008871E01A7828B700DF3A10 /* Project object */;
+}
