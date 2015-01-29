@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A562FD45-BD98-4461-A3DD-B6CFE01F4704</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Fontopaedia</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5B85BF9BA6C26A2DE8756B671BCF45DDEDD4EB26</key>
+		<string>https://github.com/lauraipina/Fontopaedia.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Fontopaedia.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5B85BF9BA6C26A2DE8756B671BCF45DDEDD4EB26</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lauraipina/Fontopaedia.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5B85BF9BA6C26A2DE8756B671BCF45DDEDD4EB26</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5B85BF9BA6C26A2DE8756B671BCF45DDEDD4EB26</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Fontopaedia</string>
+		</dict>
+	</array>
+</dict>
+</plist>
