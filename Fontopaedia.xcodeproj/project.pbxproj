@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00390C191A79775800DB03DF /* LIPFontsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00390C181A79775800DB03DF /* LIPFontsTableViewController.m */; };
+		00390C1E1A79779500DB03DF /* LIPFontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00390C1C1A79779500DB03DF /* LIPFontViewController.m */; };
+		00390C1F1A79779500DB03DF /* LIPFontViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00390C1D1A79779500DB03DF /* LIPFontViewController.xib */; };
 		008871EE1A7828B700DF3A10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 008871ED1A7828B700DF3A10 /* main.m */; };
 		008871F11A7828B700DF3A10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 008871F01A7828B700DF3A10 /* AppDelegate.m */; };
 		008871F31A7828B700DF3A10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008871F21A7828B700DF3A10 /* Images.xcassets */; };
@@ -25,6 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00390C171A79775800DB03DF /* LIPFontsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIPFontsTableViewController.h; sourceTree = "<group>"; };
+		00390C181A79775800DB03DF /* LIPFontsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIPFontsTableViewController.m; sourceTree = "<group>"; };
+		00390C1B1A79779500DB03DF /* LIPFontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIPFontViewController.h; sourceTree = "<group>"; };
+		00390C1C1A79779500DB03DF /* LIPFontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIPFontViewController.m; sourceTree = "<group>"; };
+		00390C1D1A79779500DB03DF /* LIPFontViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LIPFontViewController.xib; sourceTree = "<group>"; };
 		008871E81A7828B700DF3A10 /* Fontopaedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fontopaedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		008871EC1A7828B700DF3A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		008871ED1A7828B700DF3A10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -55,6 +63,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00390C1A1A79776400DB03DF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				00390C171A79775800DB03DF /* LIPFontsTableViewController.h */,
+				00390C181A79775800DB03DF /* LIPFontsTableViewController.m */,
+				00390C1B1A79779500DB03DF /* LIPFontViewController.h */,
+				00390C1C1A79779500DB03DF /* LIPFontViewController.m */,
+				00390C1D1A79779500DB03DF /* LIPFontViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		008871DF1A7828B700DF3A10 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +98,7 @@
 			children = (
 				008871EF1A7828B700DF3A10 /* AppDelegate.h */,
 				008871F01A7828B700DF3A10 /* AppDelegate.m */,
+				00390C1A1A79776400DB03DF /* Controllers */,
 				008871F21A7828B700DF3A10 /* Images.xcassets */,
 				008871F41A7828B700DF3A10 /* LaunchScreen.xib */,
 				008871EB1A7828B700DF3A10 /* Supporting Files */,
@@ -191,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00390C1F1A79779500DB03DF /* LIPFontViewController.xib in Resources */,
 				008871F61A7828B700DF3A10 /* LaunchScreen.xib in Resources */,
 				008871F31A7828B700DF3A10 /* Images.xcassets in Resources */,
 			);
@@ -210,6 +232,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00390C191A79775800DB03DF /* LIPFontsTableViewController.m in Sources */,
+				00390C1E1A79779500DB03DF /* LIPFontViewController.m in Sources */,
 				008871F11A7828B700DF3A10 /* AppDelegate.m in Sources */,
 				008871EE1A7828B700DF3A10 /* main.m in Sources */,
 			);
@@ -394,6 +418,7 @@
 				008872071A7828B700DF3A10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		008872081A7828B700DF3A10 /* Build configuration list for PBXNativeTarget "FontopaediaTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +427,7 @@
 				0088720A1A7828B700DF3A10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

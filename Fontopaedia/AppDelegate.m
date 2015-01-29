@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LIPFontsTableViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,7 +17,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
     // Override point for customization after application launch.
+    
+    //Creamos el controlador - tabla
+    LIPFontsTableViewController *fontsVC = [[LIPFontsTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    
+    //Creamos el navigationController
+    UINavigationController *navTable = [[UINavigationController alloc] initWithRootViewController:fontsVC];
+    
+    //Asignamos como controlador principal
+    self.window.rootViewController = navTable;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
